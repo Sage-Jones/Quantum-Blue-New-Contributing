@@ -54,6 +54,14 @@
           collection: MetalBreak
   - type: StaticPrice
     price: 30
+    # Impstation Edit Start
+  - type: IconSmooth
+    key: walls
+    base: girder
+  - type: Icon
+    sprite: _Impstation/Structures/Walls/girder.rsi
+    state: full
+    # Impstation Edit End
 
 - type: entity
   id: ReinforcedGirder
@@ -97,10 +105,15 @@
                 collection: MetalBreak
     - type: StaticPrice
       price: 130
+    # Impstation Edit Start
+    - type: Icon
+      sprite: _Impstation/Structures/Walls/girder_reinforced.rsi
+      state: full
+    # Impstation Edit End
 
 - type: entity
   id: ClockworkGirder
-  parent: ReinforcedGirder
+  # parent: ReinforcedGirder Impstation removal. It gained nothing from having a parent except breaking
   name: wall gear
   description: A large gear with mounting brackets for additional plating; This could be made into a wall with more brass plating.
   components:

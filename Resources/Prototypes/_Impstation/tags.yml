@@ -73,6 +73,9 @@
   id: CartridgePistolStun
 
 - type: Tag
+  id: ChefBeltItem
+
+- type: Tag
   id: ChemGoggles
 
 - type: Tag
@@ -153,6 +156,9 @@
   id: Dinnerware
 
 - type: Tag
+  id: DionaNymph # for distinguishing diona organs that are the nymphs themselves rather than the inert organs they turn into
+
+- type: Tag
   id: DrinkCup
 
 - type: Tag
@@ -228,6 +234,9 @@
   id: Ingredient
 
 - type: Tag
+  id: JanitorialRCD
+
+- type: Tag
   id: JanitorialWelder
 
 - type: Tag
@@ -301,6 +310,9 @@
 
 - type: Tag
   id: LightYellow
+
+- type: Tag
+  id: Log # ConstructionGraph: chairBigLog
 
 - type: Tag
   id: MagazineBR
@@ -402,6 +414,9 @@
   id: ShellSlug
 
 - type: Tag
+  id: SpacemanFrosting
+
+- type: Tag
   id: SpeedLoaderAM
 
 - type: Tag
@@ -442,6 +457,9 @@
 
 - type: Tag
   id: UnguFood
+
+- type: Tag
+  id: VanillaFrosting
 
 - type: Tag
   id: VapeCart

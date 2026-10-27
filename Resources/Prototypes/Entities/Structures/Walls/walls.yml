@@ -214,9 +214,9 @@
       - Wall
       - Structure
   - type: Sprite
-    sprite: Structures/Walls/meat.rsi
+    sprite: _Impstation/Structures/Walls/meat.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/meat.rsi
+    sprite: _Impstation/Structures/Walls/meat.rsi # Impstation
   - type: Construction
     graph: Girder
     node: meatWall
@@ -382,9 +382,9 @@
   name: ice wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/ice.rsi
+    sprite: _Impstation/Structures/Walls/ice.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/ice.rsi
+    sprite: _Impstation/Structures/Walls/ice.rsi # Impstation
   - type: Destructible
     thresholds:
     - trigger:
@@ -778,9 +778,9 @@
   name: sandstone wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/sandstone.rsi
+    sprite: _Impstation/Structures/Walls/sandstone.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/sandstone.rsi
+    sprite: _Impstation/Structures/Walls/sandstone.rsi # Impstation
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -1396,9 +1396,9 @@
   name: stone wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/necropolis.rsi
+    sprite: _Impstation/Structures/Walls/necropolis.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/necropolis.rsi
+    sprite: _Impstation/Structures/Walls/necropolis.rsi # Impstation
   - type: Destructible
     thresholds:
     - trigger:
@@ -1604,9 +1604,9 @@
   description: Stone by stone, perfectly fitted together to form a wall.
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick.rsi # Impstation
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -1629,9 +1629,9 @@
   name: basalt brick wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick_basalt.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_basalt.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick_basalt.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_basalt.rsi # Impstation
   - type: IconSmooth
     key: cobblebricks
     base: cobblebrick
@@ -1643,9 +1643,9 @@
   description: A cold, not-so-impenetrable wall.
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick_snow.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_snow.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick_snow.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_snow.rsi # Impstation
   - type: IconSmooth
     key: cobblebricks
     base: cobblebrick
@@ -1656,9 +1656,9 @@
   name: asteroid stone brick wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick_asteroid.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_asteroid.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick_asteroid.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_asteroid.rsi # Impstation
   - type: IconSmooth
     key: cobblebricks
     base: cobblebrick
@@ -1669,9 +1669,9 @@
   name: sandstone brick wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick_sand.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_sand.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick_sand.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_sand.rsi # Impstation
   - type: IconSmooth
     key: cobblebricks
     base: cobblebrick
@@ -1682,9 +1682,9 @@
   name: chromite brick wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick_chromite.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_chromite.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick_chromite.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_chromite.rsi # Impstation
   - type: IconSmooth
     key: cobblebricks
     base: cobblebrick
@@ -1695,9 +1695,9 @@
   name: andesite brick wall
   components:
   - type: Sprite
-    sprite: Structures/Walls/cobblebrick_andesite.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_andesite.rsi # Impstation
   - type: Icon
-    sprite: Structures/Walls/cobblebrick_andesite.rsi
+    sprite: _Impstation/Structures/Walls/cobblebrick_andesite.rsi # Impstation
   - type: IconSmooth
     key: cobblebricks
     base: cobblebrick
@@ -1805,7 +1805,7 @@
         sound:
           collection: WoodDestroy
   - type: IconSmooth
-    key: cards
+    key: walls # Impstation
     base: card
   - type: Occluder
   - type: BlockWeather
